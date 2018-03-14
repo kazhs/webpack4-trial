@@ -1,0 +1,11 @@
+## Ignore Dependencies
+node_modules/
+
+## Ignore Comiled Files
+dist/
+
+## Ignore auto generated files
+*.log
+
+## Ignore .DS_Store files on OS X
+.DS_Store

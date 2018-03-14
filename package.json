@@ -1,0 +1,26 @@
+{
+  "name": "webpack4-trial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kz",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "watch": "webpack -w"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "html-webpack-plugin": "^3.0.6",
+    "nib": "^1.1.2",
+    "style-loader": "^0.20.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "ts-loader": "^4.0.1",
+    "typescript": "^2.7.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
