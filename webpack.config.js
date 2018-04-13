@@ -24,6 +24,10 @@ module.exports = {
         use: 'ts-loader'
       },
       {
+        test: /\.pug$/,
+        use: 'pug-loader'
+      },
+      {
         test: /\.styl$/,
         use: [
           'style-loader',
@@ -49,7 +53,7 @@ module.exports = {
    */
   plugins: [
     new HtmlWebpackPlugin({
-      template: root('src', 'template', 'index.html'),
+      template: root('src', 'template', 'index.pug'),
       title: 'Test Webpack4',
     }),
 
